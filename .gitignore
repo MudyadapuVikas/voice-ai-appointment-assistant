@@ -1,0 +1,27 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+backend/data/*.db
+backend/data/*.db-*
+
+# node
+frontend/node_modules/
+frontend/dist/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# e2e test artefacts
+backend/tests/e2e/*.pem
+backend/tests/e2e/artifacts/
